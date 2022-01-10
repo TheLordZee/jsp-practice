@@ -40,5 +40,14 @@
 				<%=request.getLocale() %>
 			</li>
 		</ul>
+		
+		<form action="session.jsp">  
+			<input type="text" name="uname">  
+			<input type="submit" value="go"><br/>  
+		</form>
+		
+		<form action="redirect.jsp">
+			<input type="submit" value="Redirect">
+		</form>  
 	</body>
 </html>
